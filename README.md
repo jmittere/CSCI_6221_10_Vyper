@@ -2,7 +2,7 @@
 
 Repository for CSCI_6221_10_Vyper group project implementing smart contracts using the Vyper language.
 
-> **IMPORTANT:** DO NOT EDIT OR DELETE FILES IN THE */build and */reports folders. 
+> **IMPORTANT:** In order to compile a .vy file, you must install vyper locally and deploy the bytecode onto a local testnet with ganache-cli. If you are testing this code on a testnet (ex. Remix IDE), compile and deploy the smart contract first before interacting with each contract's functions. 
 
 ## Project Description
 
@@ -24,7 +24,7 @@ This project implements various smart contracts in Vyper, including:
 git clone https://github.com/yourusername/CSCI_6221_10_Vyper.git
 
 # Install dependencies
-pip install -r requirements.txt
+pip install vyper==0.4.0
 
 ```
 
