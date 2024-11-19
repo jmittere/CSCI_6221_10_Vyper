@@ -1,0 +1,22 @@
+Within Remix IDE, the following can be formed to test out functionality of the smart contracts. 
+
+1. Clone the Repo. 
+
+2. Compile the contract with the green arrow on the top left. 
+
+3. Go to the Deploy & Run Transactions window of Remix. 
+
+4. Deploy the Contract that was just compiled. 
+
+5. Create a candidate with one of the addresses
+    a. Test creating candidate under the age of 35
+    b. Create a candidate and record that address as the president. 
+    c. Test creating candidate with the same address as the previous candidate. 
+    d. Create a second candidate and record that address as the vice president. 
+
+6. Create a ballot with the president and vice presidents addresses. 
+
+7. Use an account to vote for that ballot ID that was created.
+    a. optionally, you can specify a transaction amount in WEI to pay to the candidate. 
+
+8. Call get_winning_ballot() to see the new President and Vice President!

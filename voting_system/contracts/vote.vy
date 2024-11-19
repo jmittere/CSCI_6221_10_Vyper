@@ -27,8 +27,8 @@ voters: public(HashMap[address, bool])
 
 # event for when a vote happens to be caught by frontend
 event VoteCast:
-    candidate: address
     voter: address
+    candidate: address
     donation: uint256
 
 # event for when Candidates are created to be caught by frontend

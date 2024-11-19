@@ -143,11 +143,13 @@ This Vyper smart contract implements a decentralized voting system for managing 
 - `create_candidate()`: Registers a new candidate with name, address, state, and age.
 - `create_ballot()`: Creates a new ballot associating a president and vice president.
 - `vote()`: Casts a vote for a specific ballot, optionally with a campaign donation.
+- `get_winning_ballot()`: Retrieves the current ballot with the most votes. 
 
 #### Security Features 
 - Uniqueness checks: Ensures no duplicate ballots or candidates are created.
 - Candidate Validation: Validates the existence of candidates and ballots before any actions.
 - Event Logging: Provides transparency by logging vote casting, candidate creation, and ballot updates.
+- Campaign Donations: Allows voters to donate to a candidate's campaign directly. 
 
 ### Usage Examples
 
